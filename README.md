@@ -8,6 +8,8 @@
 
 <sup>1</sup> UC Berkeley (_Berkeley AI Research_),  <sup>2</sup> Toyota Motor North America, ,  <sup>3</sup> Princeton University
 
+IEEE International Conference on Robotics and Automation (ICRA) 2026
+
 ### Installation
 Please set up a conda environment (see instructions in [SETUP.md](SETUP.md)).
 
