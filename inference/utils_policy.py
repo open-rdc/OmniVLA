@@ -1,24 +1,14 @@
-import os
-import sys
-import io
-import matplotlib.pyplot as plt
-
-# ROS
-#from sensor_msgs.msg import Image
-
-# pytorch
 import torch
 import torch.nn as nn
 from torchvision import transforms
 import torchvision.transforms.functional as TF
 
 import clip
-import numpy as np
 from PIL import Image as PILImage
-from typing import List, Tuple, Dict, Optional
+from typing import List
 
-#model architecture
-from model_omnivla_edge import OmniVLA_edge
+# model architecture
+from .model_omnivla_edge import OmniVLA_edge
 
 
 def load_model(
